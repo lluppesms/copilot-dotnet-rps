@@ -1,8 +1,6 @@
-# Copilot Demos for C#, .NET through Visual Studio IDE
+# GitHub Copilot Demos for C# using Visual Studio IDE
 
 ![Microsoft Visual Studio ODE](./images/icon-vs.jpg)
-
-![.NET and C#](./images/dotnet.jpg)
 
 This contains a collection of demos for Copilot for **C#** and **.NET** through **Visual Studio IDE.** This is going to be useful for customers who are interested in using Copilot for C# and .NET and want to use Copilot to generate code through Visual Studio IDE.
 
@@ -19,11 +17,11 @@ All of demos here will require the following as minimum requirements. Some exerc
 
 [See this documentation on how to install Copilot extension for Visual Studio IDE](./CopilotExtensionVS)
 
-*Note: Starting with Visual Studio 17.10, GitHub Copilot is included in Visual Studio IDE. You can enable it by going to **Tools** > **Options** > **GitHub Copilot**.
+*Note: Starting with Visual Studio 17.10, GitHub Copilot is included in Visual Studio IDE. You can enable it by going to **Tools** > **Options** > **GitHub Copilot**, and do not need to install an extension.
 
 ## Demos
 
-You want to start with basic one then jump to other ones.
+You want to start with the basic one then jump to other ones.
 
 1. [Rock Paper Scissors Labs](Labs/README.md)
 
