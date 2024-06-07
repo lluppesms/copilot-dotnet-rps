@@ -101,17 +101,17 @@ Place your cursor in the line with the error and press `Alt + /` to pop up GitHu
 
 ![Type in /fix](images/RPS_060.png)
 
-Visual Studio will pop up a code comparison too to see what your suggestions look like:
+Visual Studio will pop up a code comparison tool so you can see what your suggestions look like:
 
 ![give some details on what you'd like fixed](images/RPS_070.png)
 
-If you scroll down, you should see if generated two methods:
+If you scroll down, you should see it generated two methods:
 
 ![Generated code](images/RPS_080.png)
 
-### Step 8: Refining the suggestion
+### Step 8: Refining the suggestions
 
-You can interact with GitHub Copilot before accepting the code it suggests. In this case, I'm not a fan of how it repeats the lowercase() function each time it asks for user input. I'd rather keep this DRY and move that into the function. Let's ask it to do better!
+You can interact with GitHub Copilot before accepting the code it suggests. In this case, I'm not a fan of how it repeats the lowercase() function each time it asks for user input. I'd rather keep this DRY (i.e. Do Not Repeat Yourself!) and move that into the function. Let's ask it to do better!
 
 ![Review the suggestions](images/RPS_090.png)
 
@@ -119,14 +119,15 @@ Now that the suggestion looks good, let's accept it!
 
 ![Refine the suggestions](images/RPS_100.png)
 
-
 ### Step 9: Running the program
 
-Try to build your program and it should now build successfully.  However, since we added this method in it's own class, we need to make sure we can call it from our main method.  Let's ask GitHub Copilot to help us with that!  Note that I've used the "#" directive to tell Copilot WHERE to add to code into.
+Your program should build successfully now.  However, since we added this method in it's own class, we need to make sure we call it from our main method.  Let's ask GitHub Copilot to help us with that!  
+
+Note that I've used the "#" directive to tell Copilot WHERE to add to code into.
 
 ![Refine the suggestions](images/RPS_110.png)
 
-You can see that Copilot has added a method call to this file, but it's quite right and and is throwing an error.  Let's ask Copilot to explain why it doesn't work.
+You can see that Copilot has added a method call to this file, but it's not quite right and is throwing an error.  Let's ask Copilot to explain why it doesn't work.
 ![Refine the suggestions](images/RPS_120.png)
 
  I need to add the namespace in front of the method call - not sure why Copilot didn't do that.
@@ -136,3 +137,5 @@ Yea!  Now it should build!  Your final result when you run the code again might 
 ![Refine the suggestions](images/RPS_140.png)
 
 That is it! Congratulation on finishing your first exercise with Copilot. You can try to write more complicated code and see how Copilot can help you.
+
+In the next lab, we'll refine this example and make it better, including user validation and some test cases.
