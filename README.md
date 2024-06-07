@@ -25,13 +25,8 @@ All of demos here will require the following as minimum requirements. Some exerc
 
 You want to start with basic one then jump to other ones.
 
-1. [Getting Started](Demos/GettingStarted/README.md)
-2. [Test Driven Development (TDD) using C# and .NET through Visual Studio IDE](Demos/TDD-DotNet/README.md)
-
+1. [Rock Paper Scissors Labs](Labs/README.md)
 
 ## Contribution
 
 If you want to contribute to this repo, please follow the [Contribution Guidelines](CONTRIBUTING.md).
-
-
-
