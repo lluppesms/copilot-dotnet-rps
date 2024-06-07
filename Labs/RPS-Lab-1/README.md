@@ -75,13 +75,13 @@ Add in comments to describe what the class does. This will create context copilo
 // 4. ask the user if they want to play again
 ```
 
-![add in copilot comments](images/rps_020.png)
+![add in copilot comments](images/RPS_020.png)
 
 ### Step 6: Ask user for input
 
 Write out the step 1 comment into the class and press enter. GitHub Copilot should start suggesting code which you can decide to reject or accept.
 
-![Copilot ghost comments](images/rps_030.png)
+![Copilot ghost comments](images/RPS_030.png)
 
 **_Shortcut Tip:_** If GH Copilot has not started suggesting code you can trigger it by pressing:
 
@@ -93,46 +93,46 @@ Write out the step 1 comment into the class and press enter. GitHub Copilot shou
 
 Once you've accepted the suggestion, you might see that it has generated code that contains some errors, as indicated by the red unlerlines. We can use GitHub Copilot to help fix these errors!
 
-![Initial suggestion which has errors](images/rps_040.png)
+![Initial suggestion which has errors](images/RPS_040.png)
 
 Place your cursor in the line with the error and press `Alt + /` to pop up GitHub Copilot Chat. You can then ask GitHub Copilot to help you fix the error.
 
-![Hightlight the error](images/rps_050.png)
+![Hightlight the error](images/RPS_050.png)
 
-![Type in /fix](images/rps_060.png)
+![Type in /fix](images/RPS_060.png)
 
 Visual Studio will pop up a code comparison too to see what your suggestions look like:
 
-![give some details on what you'd like fixed](images/rps_070.png)
+![give some details on what you'd like fixed](images/RPS_070.png)
 
 If you scroll down, you should see if generated two methods:
 
-![Generated code](images/rps_080.png)
+![Generated code](images/RPS_080.png)
 
 ### Step 8: Refining the suggestion
 
 You can interact with GitHub Copilot before accepting the code it suggests. In this case, I'm not a fan of how it repeats the lowercase() function each time it asks for user input. I'd rather keep this DRY and move that into the function. Let's ask it to do better!
 
-![Review the suggestions](images/rps_090.png)
+![Review the suggestions](images/RPS_090.png)
 
 Now that the suggestion looks good, let's accept it!
 
-![Refine the suggestions](images/rps_100.png)
+![Refine the suggestions](images/RPS_100.png)
 
 
 ### Step 9: Running the program
 
 Try to build your program and it should now build successfully.  However, since we added this method in it's own class, we need to make sure we can call it from our main method.  Let's ask GitHub Copilot to help us with that!  Note that I've used the "#" directive to tell Copilot WHERE to add to code into.
 
-![Refine the suggestions](images/rps_110.png)
+![Refine the suggestions](images/RPS_110.png)
 
 You can see that Copilot has added a method call to this file, but it's quite right and and is throwing an error.  Let's ask Copilot to explain why it doesn't work.
-![Refine the suggestions](images/rps_120.png)
+![Refine the suggestions](images/RPS_120.png)
 
  I need to add the namespace in front of the method call - not sure why Copilot didn't do that.
-![Refine the suggestions](images/rps_130.png)
+![Refine the suggestions](images/RPS_130.png)
 
 Yea!  Now it should build!  Your final result when you run the code again might look something like this.
-![Refine the suggestions](images/rps_140.png)
+![Refine the suggestions](images/RPS_140.png)
 
 That is it! Congratulation on finishing your first exercise with Copilot. You can try to write more complicated code and see how Copilot can help you.
