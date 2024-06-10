@@ -84,9 +84,11 @@ The method should return false if the first letter is not a Y.
 ![Play Again 1](images/RPS_290.png)
 
 In this case, the over eager Copilot created the code but put it in the wrong spot. However if you just move the new method to be down below the current method, it should work just fine.
+
 ![add in copilot comments](images/RPS_291.png)
 
 Here is what it looks like once it's been moved:
+
 ![add in copilot comments](images/RPS_292.png)
 
 Press F5 to run and test out your new game!
