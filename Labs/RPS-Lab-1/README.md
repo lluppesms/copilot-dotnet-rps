@@ -135,6 +135,6 @@ You can see that Copilot has added a method call to this file, but it's not quit
  Yea!  Now it should build!  Press F5 to run your program and it should look something like this:
 ![Refine the suggestions](images/RPS_140.png)
 
-That is it! Congratulation on finishing your first exercise with Copilot. You can try to write more complicated code and see how Copilot can help you.
+That is it! Congratulations on finishing your first exercise with Copilot. You can try to write more complicated code and see how Copilot can help you.
 
-In the next lab, we'll refine this example and make it better, including user validation and some test cases.
+In the next few labs, we'll refine this example and make it better, including user validation and some test cases.
