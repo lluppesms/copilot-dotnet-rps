@@ -23,9 +23,9 @@ All of demos here will require the following as minimum requirements. Some exerc
 
 You want to start with the basic one then jump to other ones.
 
-1. [Lab 1](./RPS-Lab-1/README.md) - Create a simple working `RockPaperScissors` game.
-1. [Lab 2](./RPS-Lab-2/README.md) - Add more functionality to the `RockPaperScissors` game.
-1. [Lab 3](./RPS-Lab-3/README.md) - Make the `RockPaperScissors` more testable.
+1. [Lab 1](./Labs/RPS-Lab-1/README.md) - Create a simple working `RockPaperScissors` game.
+1. [Lab 2](./Labs/RPS-Lab-2/README.md) - Add more functionality to the `RockPaperScissors` game.
+1. [Lab 3](./Labs/RPS-Lab-3/README.md) - Make the `RockPaperScissors` more testable.
 
 ## Contribution
 
