@@ -1,6 +1,6 @@
-# Getting started - Rock / Paper / Visual Studio
+# Lab 1: Getting started - Rock / Paper / Visual Studio
 
-Welcome to GitHub Copilot! In this example, we'll show you how to use Copilot to write a simple .NET game.
+Welcome to GitHub Copilot Labs! In this example, we'll show you how to use Copilot to write a simple .NET game.
 
 ## Prerequisites
 
