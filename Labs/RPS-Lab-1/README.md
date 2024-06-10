@@ -121,19 +121,18 @@ Now that the suggestion looks good, let's accept it!
 
 ### Step 9: Running the program
 
-Your program should build successfully now.  However, since we added this method in it's own class, we need to make sure we call it from our main method.  Let's ask GitHub Copilot to help us with that!  
+Your program should build successfully now.  However, since we added this method in it's own class, we need to make sure we call it from our main method.
 
-Note that I've used the "#" directive to tell Copilot WHERE to add to code into.
+Before we ask GitHub Copilot to help us with that, let's rename the class from "RockPaperScissors" to "Game" (line 2 below) to make it more descriptive, and change the main function name from "Main" to "Run" (line 10 below).
+
+Now let's ask Copilot to help us call this program!  Note that I've used the "#" directive to tell Copilot WHERE to add to code into.
 
 ![Refine the suggestions](images/RPS_110.png)
 
-You can see that Copilot has added a method call to this file, but it's not quite right and is throwing an error.  Let's ask Copilot to explain why it doesn't work.
+You can see that Copilot has added a method call to this file, but it's not quite right and is throwing an error.  Visual Studio can easily fix that for you by simply putting your cursor on the error and press Control+".". You will get a menu with possible fixes - pick the second option to add the namespace "RockPaperScissors" in from of the class name and that should fix it.
 ![Refine the suggestions](images/RPS_120.png)
 
- I need to add the namespace in front of the method call - not sure why Copilot didn't do that.
-![Refine the suggestions](images/RPS_130.png)
-
-Yea!  Now it should build!  Your final result when you run the code again might look something like this.
+ Yea!  Now it should build!  Press F5 to run your program and it should look something like this:
 ![Refine the suggestions](images/RPS_140.png)
 
 That is it! Congratulation on finishing your first exercise with Copilot. You can try to write more complicated code and see how Copilot can help you.

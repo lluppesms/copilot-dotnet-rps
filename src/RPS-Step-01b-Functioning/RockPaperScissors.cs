@@ -1,5 +1,5 @@
 ﻿namespace RockPaperScissors;
-internal class RockPaperScissors
+internal class Game
 {
     // create a rock paper scissors game
     // 1. ask user to input rock paper or scissors
@@ -7,7 +7,7 @@ internal class RockPaperScissors
     // 3. compare the two choices and send out the results
     // 4. ask the user if they want to play again
 
-    public static void Main()
+    public static void Run()
     {
         Console.WriteLine("Welcome to Rock Paper Scissors!");
         bool playAgain = true;
