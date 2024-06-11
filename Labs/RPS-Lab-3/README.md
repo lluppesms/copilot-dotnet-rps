@@ -65,6 +65,8 @@ can you add something to this string so that when the computer wins, the font co
 can you add something to this string so that when it's a tie, the font color is blue?
 ```
 
+![ASCII Art 4](images/RPS_360.png)
+
 Now press F5 to run and test out your new beautiful game!
 
 ![ASCII Art 4](images/RPS_370.png)
