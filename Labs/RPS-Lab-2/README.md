@@ -97,4 +97,4 @@ Press F5 to run and test out your new game!
 
 ### Lab Complete: Input is Validated!
 
-Congratulations on finishing your second exercise with Copilot!  Your program should now be a bit more robust and accept only valid input from the user. In the next lab, we'll work on making the user interface a bit nicer.
+Congratulations on finishing your second exercise with Copilot!  Your program should now be a bit more robust and accept only valid input from the user. In the [next lab](../RPS-Lab-3/README.md), we'll work on making the user interface a bit nicer.

@@ -137,4 +137,4 @@ You can see that Copilot has added a method call to this file, but it's not quit
 
 That is it! Congratulations on finishing your first exercise with Copilot. You can try to write more complicated code and see how Copilot can help you.
 
-In the next few labs, we'll refine this example and make it better, including user validation and some test cases.
+In the next [few labs](../RPS-Lab-2/README.md), we'll refine this example and make it better, including user validation and some test cases.

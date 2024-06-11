@@ -73,4 +73,4 @@ Now press F5 to run and test out your new beautiful game!
 
 ### Lab Complete: Your game looks awesome!
 
-Congratulations on finishing your third exercise with Copilot!  Your program should now be a bit more visually interesting. In the next lab, we'll refactor it a bit to make the code better.
+Congratulations on finishing your third exercise with Copilot!  Your program should now be a bit more visually interesting. In the [next lab](../RPS-Lab-4/README.md), we'll refactor it a bit to make the code better.

@@ -138,4 +138,4 @@ Sweet! Documentation complete!
 
 ### Lab Complete: Your code looks much better now!
 
-Congratulations on finishing your fourth exercise with Copilot!  Your program should now be a bit cleaner now, (although I'm sure there is more technical debt left for future training exercises!). In the next lab, we'll add some test cases to make the code even more robust.
+Congratulations on finishing your fourth exercise with Copilot!  Your program should now be a bit cleaner now, (although I'm sure there is more technical debt left for future training exercises!). In the [next lab](../RPS-Lab-5/README.md), we'll add some test cases to make the code even more robust.
