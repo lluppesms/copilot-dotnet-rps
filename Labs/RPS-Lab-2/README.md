@@ -16,7 +16,7 @@ Please follow this step-by-step guide to start adding functionality to your prog
 
 Open the `RockPaperScissors.cs` class, then open GitHub Copilot Chat.  Ask Copilot to help you add a score keeping mechanism to the game by referencing the `RockPaperScissors.cs` class using the `#` directive.
 
-``` c#
+``` yaml
 can you add a separate method to #file:'RockPaperScissors.cs' to keep score and display the score at the end of each round?
 ```
 
@@ -40,7 +40,7 @@ Let's make it easier to get user input by asking Copilot to create a method to g
 
 Use this prompt:
 
-``` c#
+``` yaml
 Can you change this code so that the user choice is entered in a method called GetUserChoice?
 ```
 
@@ -52,7 +52,7 @@ After examining the suggestion, this doesn't quite do what we'd like.  Click Can
 
 We can accept this suggestion, but then let's try to refine it a bit by being much more specific about what we want in our prompt:
 
-``` c#
+``` yaml
 Please change this method to validate the choices.  
 Allow the user to enter data in upper or lower case.  
 Allow the user to enter only the first character of the word, or the entire word.
@@ -74,7 +74,7 @@ After you have accepted and created a GetUserChoice method, if you put your curs
 
 Let's also move the Play Again logic into it's own function and validate that input better by giving some suggestions as to what validation you want to happen:
 
-``` c#
+``` yaml
 Please replace these lines with a method call which returns a boolean.
 The method value should be assigned to the playAgain variable.  
 In the method, the user should be able to enter data in either upper or lower case.

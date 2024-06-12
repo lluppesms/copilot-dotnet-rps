@@ -18,7 +18,7 @@ Let's go back and use the comment method of prompting Copilot to create a method
 
 Let's activate Copilot by adding a comment in your code and hitting enter:
 
-``` c#
+``` yaml
 // create a method that will display ascii art of a rock, paper, or scissors
 ```
 
@@ -26,13 +26,13 @@ Let's activate Copilot by adding a comment in your code and hitting enter:
 
 You may get some code that doesn't *look* right because it is all on one line.  You can ask Copilot to reformat the ASCII art by breaking it up into multiple lines.  Give it a couple of different suggestions to see if you can get it to format correctly, like this:
 
-``` c#
+``` yaml
 can you break down this code so that each line of ascii art is written on it's own line with it's own console.writeline?
 ```
 
 You can continue to coax it along by asking it to refine the code if it's not what you want:
 
-``` c#
+``` yaml
 that's almost right, but the rock is still on only two lines. 
 can you break that up to have six lines like the others?
 ```
@@ -47,7 +47,7 @@ Once you're done, it should look something like this
 
 Now that we have an image generator, let's use it to display the choices for the user and the computer.  We'll need to call this method from the `DisplayChoice` method.  Let's ask Copilot to do that for us:
 
-``` bash
+``` yaml
 Can you replace this console.writeline with a call to the DisplayChoice method to display the computer's choice and display my choice also?
 ```
 
@@ -59,7 +59,7 @@ Press F5 to run and test out your new game and it should show your choices graph
 
 Let's make the game a little more interesting by adding some color to the output.  You may not know how to specify the Console.ForegroundColor inside a string, but I bet Copilot does!  Highlight each of the strings in the GetWinner() method and ask Copilot to add some color to the output based on the result of the game, like these three prompts:
 
-``` c#
+``` yaml
 can you add something to this string so that when the user wins, the font color is green?
 can you add something to this string so that when the computer wins, the font color is red?
 can you add something to this string so that when it's a tie, the font color is blue?

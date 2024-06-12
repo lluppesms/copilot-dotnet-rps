@@ -48,7 +48,7 @@ Rename the file from UnitTest1.cs to RockPaperScissorsTests.cs.  When you do tha
 
 Now, let's add our first test that calls validate input method.  Ask Copilot to create one test that call the ValidateAndConvertInput() method in the RockPaperScissors class using the #File directive.
 
-``` bash
+``` yaml
 can you add a test here to call the ValidateAndConvertInput() method in the #file:'RockPaperScissors.cs' ?
 ```
 
@@ -74,7 +74,7 @@ Open the RockPaperScissors.cs file and change the class, enum, and methods from 
 
 Remove the first method you just created, and let's let Copilot create an entire set of tests that call the ValidateAndConvertInput() method in the RockPaperScissors class using the #File directive.
 
-``` bash
+``` yaml
 can you create a series of tests that test the ValidateAndConvertInput method in the #file:'RockPaperScissors.cs' ?
 ```
 
@@ -90,7 +90,7 @@ In the previous examples, we started in the test project and called back into a 
 
 Open GitHub Copilot Chat and ask Copilot to create a test suite for the RockPaperScissors.cs file using the "/"+tests and "#"+<fileName> prompt.
 
-``` bash
+``` yaml
 /tests #RockPaperScissors.cs
 ```
 
@@ -106,7 +106,7 @@ You can see that Copilot has created a series of tests for the entire file.  You
 
 We have some tests running and all is well. However, I get that nagging feeling that we could do better...  Let's ask Copilot for some advice on how to improve our tests.
 
-``` bash
+``` yaml
 can you give me some suggestions to make #file:'RockPaperScissors.cs'  more testable? 
 ```
 

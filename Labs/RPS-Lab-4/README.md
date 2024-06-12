@@ -16,7 +16,7 @@ Please follow this step-by-step guide to start adding functionality to your prog
 
 Let's start out by asking Copilot if it has any suggestions for us:
 
-``` c#
+``` yaml
 can you suggest some ways that we can refactor #file:'RockPaperScissors.cs'  to make it more maintainable?
 ```
 
@@ -30,7 +30,7 @@ That suggestion is pretty broad, but it came back with a LOT of things that we c
 
 Let's tackle them one by one, starting with simplifying the GetUserChoice method.  Ask Copilot to help you with that:
 
-``` c#
+``` yaml
 Can you break the GetUserChoice method up into more maintainable methods?
 ```
 
@@ -48,13 +48,13 @@ Once you have those methods and calls, you can delete the GetUserChoice() method
 
 Next, let's ask Copilot to help us remove the magic strings from the code.  Ask Copilot to help you with that:
 
-``` c#
+``` yaml
 Can you refactor this file so that it doesn't use magic strings?
 ```
 
 Note: if you see only a PARTIAL code fragment with places that say "//rest of the code ..." and much of your code is missing, you can ask Copilot to stop doing that and give you the full code instead:
 
-``` c#
+``` yaml
 can you update this example with ALL of the code, not comments saying "// rest of the code"?  
 I want to be able to replace the entire class with these suggestions.
 Keep my comments in the code also and don't remove them.
@@ -82,7 +82,7 @@ Maybe up to this point, enumerations were a new concept and you were sure how yo
 
 If you notice, Copilot completed the previous refactoring of our code, then provided suggestions for other improvements.  You can accept these suggestions by clicking on the provided link.
 
-``` c#
+``` yaml
 can you refactor this solution so that the class "Score" is in it's own separate file?
 ```
 
@@ -104,7 +104,7 @@ Run the program to make sure it still works and you should have a refactored ver
 
 Method documentation is very useful when you can calling methods or APIs from other methods.  Use the inline Copilot Chat to select a method that has parameters and needs a documentation header (like the ValidateAndConvertInput() method) and then ask Copilot to help you with that:
 
-``` c#
+``` yaml
 Can you add a documentation header to this method?
 ```
 
@@ -124,7 +124,7 @@ First, create a README.md file in the root of your project.
 
 Open the file, then ask Copilot to help you generate some documentation for it, and copy and paste the resulting documentation into your README.md file:
 
-``` c#
+``` yaml
 can you examine this solution and create a readme document that explains what this program does, and what each of the files is used for?
 ```
 
