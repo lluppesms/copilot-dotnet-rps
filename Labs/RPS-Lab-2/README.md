@@ -4,20 +4,20 @@ Welcome to GitHub Copilot Labs! In this example, we'll add some additional funct
 
 ## Prerequisites
 
-Make sure that you have completed the [initial lab](../RPS-Lab-1/README.md)
+Make sure that you have completed [the first lab](../RPS-Lab-1/README.md).
 
 ## Steps
 
-Please follow this step-by-step guide to start adding functionality to your program.
+Please follow this step-by-step guide to start adding functionality to your program. Remember that Copilot is non-deterministic so it may not always provide the same suggestions as shown here. You may have to adapt the prompts and lab directions to get the desired results for your particular program!
 
 ---
 
 ### Step 1: Add a score keeping mechanism
 
-Open the `RockPaperScissors.cs` class, then open GitHub Copilot Chat.  Ask Copilot to help you add a score keeping mechanism to the game by referencing the `RockPaperScissors.cs` class using the `#` directive.
+Open the `RockPaperScissors.cs` class, then open the GitHub Copilot Chat window.  Ask Copilot to help you add a score keeping mechanism to the game. In this case we will need to tell Chat what file to work with by referencing the `RockPaperScissors.cs` class using the `#` directive, because we launched chat in the Chat window and not in the file itself.
 
 ``` yaml
-can you add a separate method to #file:'RockPaperScissors.cs' to keep score and display the score at the end of each round?
+can you add a separate method to #RockPaperScissors.cs to keep score and display the score at the end of each round?
 ```
 
 ![Create Score Keeper 1](images/RPS_210.png)
@@ -36,9 +36,7 @@ Copy and paste the lines to instantiate the class and update and display the sco
 ### Step 2: Validate the User Input
 
 Let's make it easier to get user input by asking Copilot to create a method to get the user input and then validate it.
-
-
-Use this prompt:
+Highlight the lines that get the user input and then use the inline Copilot chat to ask Copilot to help you validate the input in a method, using this prompt:
 
 ``` yaml
 Can you change this code so that the user choice is entered in a method called GetUserChoice?
@@ -68,6 +66,8 @@ After you have accepted and created a GetUserChoice method, if you put your curs
 
 ![Abort if bad input](images/RPS_282.png)
 
+If you don't get a suggestion like this, prompt Copilot to help you validate the user input by adding a comment like *"// exit loop if user choice is empty"* and then pressing enter.  Copilot should then suggest the code to abort the loop if the user choice is empty.
+
 ---
 
 ### Step 3: Validate Play Again Logic
@@ -85,11 +85,11 @@ The method should return false if the first letter is not a Y.
 
 In this case, the over eager Copilot created the code but put it in the wrong spot. However if you just move the new method to be down below the current method, it should work just fine.
 
-![add in copilot comments](images/RPS_291.png)
+![add in Copilot comments](images/RPS_291.png)
 
 Here is what it looks like once it's been moved:
 
-![add in copilot comments](images/RPS_292.png)
+![add in Copilot comments](images/RPS_292.png)
 
 Press F5 to run and test out your new game!
 

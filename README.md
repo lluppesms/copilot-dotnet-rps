@@ -13,7 +13,7 @@ Note that Copilot extension for Visual Studio IDE is **only available for Window
 All of demos here will require the following as minimum requirements. Some exercises might have more requirements. This assumes that you have a Windows environment.
 
 - [Visual Studio IDE](https://visualstudio.microsoft.com/downloads/) for Windows
-- *[Copilot Extension for Visual Studio IDE](https://marketplace.visualstudio.com/items?itemName=GitHub.copilot).
+- *[Copilot Extension for Visual Studio IDE](https://marketplace.visualstudio.com/items?itemName=GitHub.Copilot).
 
 [See this documentation on how to install Copilot extension for Visual Studio IDE](./CopilotExtensionVS)
 

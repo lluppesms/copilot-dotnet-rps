@@ -4,11 +4,11 @@ Welcome to GitHub Copilot Labs! In this example, we'll create a build pipeline a
 
 ## Prerequisites
 
-Make sure that you have completed the [Lab 5](../RPS-Lab-5/README.md)
+Make sure that you have completed [Lab 5](../RPS-Lab-5/README.md).
 
 ## Steps
 
-Please follow this step-by-step guide to start adding functionality to your program.
+Please follow this step-by-step guide to add additional functionality to your program. Remember that Copilot is non-deterministic so it may not always provide the same suggestions as shown here. You may have to adapt the prompts and lab directions to get the desired results for your particular program!
 
 ---
 

@@ -1,14 +1,14 @@
-# Lab 3: Adding Beauty (optional) - Rock / Paper / Visual Studio
+# Lab 3: Adding Beauty - Rock / Paper / Visual Studio
 
 Welcome to GitHub Copilot Labs! In this example, we'll make our program we created in Lab 2 a little more interesting.
 
 ## Prerequisites
 
-Make sure that you have completed the [Lab 2](../RPS-Lab-2/README.md)
+Make sure that you have completed [Lab 2](../RPS-Lab-2/README.md).
 
 ## Steps
 
-Please follow this step-by-step guide to start adding functionality to your program.
+Please follow this step-by-step guide to add additional functionality to your program. Remember that Copilot is non-deterministic so it may not always provide the same suggestions as shown here. You may have to adapt the prompts and lab directions to get the desired results for your particular program!
 
 ---
 
@@ -16,7 +16,7 @@ Please follow this step-by-step guide to start adding functionality to your prog
 
 Let's go back and use the comment method of prompting Copilot to create a method to display ASCII art for the Rock, Paper, and Scissors.  This will make our game a little more interesting.
 
-Let's activate Copilot by adding a comment in your code and hitting enter:
+Let's activate Copilot by adding a comment at the bottom of your code and hitting enter:
 
 ``` yaml
 // create a method that will display ascii art of a rock, paper, or scissors
@@ -66,6 +66,12 @@ can you add something to this string so that when it's a tie, the font color is 
 ```
 
 ![ASCII Art 4](images/RPS_360.png)
+
+If Copilot tries to use something like an HTML span control for the colors, then just refine the prompt a bit to give it more context so that it knows what you are trying to do.  For example:
+  
+``` yaml
+that's almost right, but can you use control characters that can be interpreted by a console.writeline command instead?
+```
 
 Now press F5 to run and test out your new beautiful game!
 

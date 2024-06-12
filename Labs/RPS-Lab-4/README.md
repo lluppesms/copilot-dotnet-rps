@@ -4,11 +4,11 @@ Welcome to GitHub Copilot Labs! In this example, we'll refactor our code to make
 
 ## Prerequisites
 
-Make sure that you have completed the [Lab 3](../RPS-Lab-3/README.md)
+Make sure that you have completed [Lab 3](../RPS-Lab-3/README.md).
 
 ## Steps
 
-Please follow this step-by-step guide to start adding functionality to your program.
+Please follow this step-by-step guide to add additional functionality to your program. Remember that Copilot is non-deterministic so it may not always provide the same suggestions as shown here. You may have to adapt the prompts and lab directions to get the desired results for your particular program!
 
 ---
 
@@ -22,13 +22,13 @@ can you suggest some ways that we can refactor #file:'RockPaperScissors.cs'  to 
 
 ![Refactor 1](images/RPS_400.png)
 
-That suggestion is pretty broad, but it came back with a LOT of things that we could improve on, but probably too many.
+That suggestion is pretty broad, and it came back with a LOT of things that we could improve on, but probably too many things to consider.  Let's narrow it down a bit.
 
 ---
 
 ### Step 2: Refactor the GetUserChoice method
 
-Let's tackle them one by one, starting with simplifying the GetUserChoice method.  Ask Copilot to help you with that:
+Let's tackle those suggestions one by one, starting with simplifying the GetUserChoice method.  Ask Copilot to help you with that:
 
 ``` yaml
 Can you break the GetUserChoice method up into more maintainable methods?
@@ -57,7 +57,6 @@ Note: if you see only a PARTIAL code fragment with places that say "//rest of th
 ``` yaml
 can you update this example with ALL of the code, not comments saying "// rest of the code"?  
 I want to be able to replace the entire class with these suggestions.
-Keep my comments in the code also and don't remove them.
 ```
 
 ![Refactor 3](images/RPS_410.png)
@@ -72,9 +71,11 @@ If you notice, Copilot completed the previous refactoring of our code, then prov
 
 ![Refactor 4](images/RPS_420.png)
 
-Maybe up to this point, enumerations were a new concept and you were sure how you could use them. Copilot has suggested that and given you a good example of how to use them.  You can accept this suggestion by clicking on the Preview and then accepting the changes.
+Maybe enumerations are a new concept and you are sure how you could use them, but now Copilot has suggested using them and given you a good example of how to use them.  
 
 ![Refactor 5](images/RPS_430.png)
+
+You can accept this suggestion by clicking on the Preview and then accepting the changes. Run the program to make sure it still works now.
 
 ---
 
@@ -96,13 +97,13 @@ Then save the file:
 
 You can now safely delete the "private class Score" section from the RockPaperScissors.cs file.
 
-Run the program to make sure it still works and you should have a refactored version of the Rock Paper Scissors game!
+Run the program to make sure it still works now.
 
 ---
 
 ### Step 6: Adding documentation to methods
 
-Method documentation is very useful when you can calling methods or APIs from other methods.  Use the inline Copilot Chat to select a method that has parameters and needs a documentation header (like the ValidateAndConvertInput() method) and then ask Copilot to help you with that:
+Method and parameter documentation is very useful when you are calling methods from other methods or or calling APIs with tools like Swagger.  Use the inline Copilot Chat to select a method that has parameters and needs a documentation header (like the ValidateAndConvertInput() method) and then ask Copilot to help you with that:
 
 ``` yaml
 Can you add a documentation header to this method?
@@ -110,22 +111,24 @@ Can you add a documentation header to this method?
 
 ![Refactor 8](images/RPS_460.png)
 
-You can repeat this for each of the methods in your code and end up with a fully documented program.  Try selecting multiple methods at once and asking Copilot to add documentation to all of them at once!
+You can repeat this for each of the methods in your code and end up with a fully documented program. 
+
+Try selecting multiple methods at once and asking Copilot to add documentation to all of them at once!
 
 ---
 
 ### Step 7: Create system documentation
 
-Before we finish, let's ask Copilot to help us create a system level README file that explains what our program does and what each of the files is used for.  This will help anyone who comes along later to understand what we did.
+Before we finish, let's ask Copilot to help us create a high level system README file that explains what our program does and what each of the files is used for.  This will help anyone who comes along later to understand what we did.
 
 First, create a README.md file in the root of your project.  
 
 ![Refactor 9](images/RPS_480.png)
 
-Open the file, then ask Copilot to help you generate some documentation for it, and copy and paste the resulting documentation into your README.md file:
+Open the file, then ask Copilot to help you generate some documentation for it, and copy and paste the resulting documentation into your README.md file.  In this prompt, I'm using the "#" directive with the word "solution" to tell Copilot to reference the entire solution.  If you copy/paste this entire line, it may not work properly, so you'll have to erase the "#solution" and type it in yourself.
 
 ``` yaml
-can you examine this solution and create a readme document that explains what this program does, and what each of the files is used for?
+can you examine this #solution and create a readme document that explains what this program does, and what each of the files is used for?
 ```
 
 ![Refactor 10](images/RPS_490.png)
