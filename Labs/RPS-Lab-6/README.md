@@ -93,7 +93,7 @@ You can ask Copilot to help you with that as well, although getting the right ar
 
 ### Lab Complete: You have a build and test pipeline!
 
-Congratulations on finishing this last exercise with Copilot!  Your program and pipeline should now be ready to publish to Azure DevOps so you can create an automated build pipeline that will run your unit tests and show you test results and a nice code coverage graph, like this!
+Congratulations on finishing this last exercise with Copilot!  Your program and pipeline should now be ready to publish to an Azure DevOps or GitHub repository. Once published, you can [create an Azure DevOps Pipeline](../../Docs/CreateNewPipeline.md) and enable your automated build pipeline that will build your app and run your unit tests and show you test results and a nice code coverage graph each time you check in your code, like this!
 
 ![Pipeline 4](images/RPS_690.png)
 
