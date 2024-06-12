@@ -28,8 +28,8 @@ steps:
     command: 'test'
     projects: '**/*test*.csproj'
     #WORKS! arguments: '--logger trx --results-directory "$(System.DefaultWorkingDirectory)/TestResults/Coverage/" --collect "XPlat Code Coverage"'
-    #publishTestResults: false
-    arguments: '--configuration $(buildConfiguration) --collect "Code coverage" --logger trx;LogFileName=TestResults.xml'
+    #WORKS! publishTestResults: false
+    arguments: '--configuration $(buildConfiguration) --results-directory "$(System.DefaultWorkingDirectory)/TestResults/Coverage/" --collect "XPlat Code coverage" --logger trx;LogFileName=TestResults.xml'
     publishTestResults: true
     testRunTitle: 'Unit Tests'
 
