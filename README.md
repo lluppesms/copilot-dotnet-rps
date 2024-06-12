@@ -1,8 +1,8 @@
 # GitHub Copilot Demos for C# using Visual Studio IDE
 
-![Microsoft Visual Studio ODE](./images/icon-vs.jpg)
+![Microsoft Visual Studio ODE](./images/dotnet-vs-ghcp.png)
 
-This repo contains a series of GitHub Copilot labs for **C#** and **.NET** using the **Visual Studio IDE.** This is going to be useful for customers who are interested in using Copilot for C# and .NET and want to use Copilot to generate code through Visual Studio IDE.
+This repo contains a series of GitHub Copilot labs for **C#** and **.NET** using the **Visual Studio IDE.** This is going to be useful for customers who are interested in using Copilot for C# and .NET and want to use Copilot to generate code through the Visual Studio IDE.
 
 Note that Copilot extension for Visual Studio IDE is **only available for Windows**. If you are using Mac, you can use Copilot through VS Code.
 
