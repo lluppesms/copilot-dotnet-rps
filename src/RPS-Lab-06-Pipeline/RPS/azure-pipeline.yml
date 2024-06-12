@@ -26,7 +26,7 @@ steps:
   inputs:
     command: 'test'
     projects: '**/*test*.csproj'
-    arguments: '--configuration $(buildConfiguration) --collect "XPlat Code coverage"'
+    arguments: '--configuration $(buildConfiguration) --logger trx --results-directory "$(Build.SourcesDirectory)/TestResults/Coverage/" --collect "XPlat Code Coverage"'
     publishTestResults: true
     testRunTitle: 'Unit Tests'
 
