@@ -2,7 +2,7 @@
 
 ![Microsoft Visual Studio ODE](./images/icon-vs.jpg)
 
-This contains a collection of demos for Copilot for **C#** and **.NET** through **Visual Studio IDE.** This is going to be useful for customers who are interested in using Copilot for C# and .NET and want to use Copilot to generate code through Visual Studio IDE.
+This repo contains a series of labs Copilot for **C#** and **.NET** using the **Visual Studio IDE.** This is going to be useful for customers who are interested in using Copilot for C# and .NET and want to use Copilot to generate code through Visual Studio IDE.
 
 Note that Copilot extension for Visual Studio IDE is **only available for Windows**. If you are using Mac, you can use Copilot through VS Code.
 
@@ -13,11 +13,11 @@ Note that Copilot extension for Visual Studio IDE is **only available for Window
 All of demos here will require the following as minimum requirements. Some exercises might have more requirements. This assumes that you have a Windows environment.
 
 - [Visual Studio IDE](https://visualstudio.microsoft.com/downloads/) for Windows
-- *[Copilot Extension for Visual Studio IDE](https://marketplace.visualstudio.com/items?itemName=GitHub.Copilot).
+- [* Copilot Extension for Visual Studio IDE](https://marketplace.visualstudio.com/items?itemName=GitHub.Copilot).
+  
+  - **Note:** Starting with Visual Studio 17.10, GitHub Copilot is now included in Visual Studio IDE and you do not need to install an extension. You can enable it by going to **Tools** > **Options** > **GitHub Copilot**.
 
-[See this documentation on how to install Copilot extension for Visual Studio IDE](./CopilotExtensionVS)
-
-*Note: Starting with Visual Studio 17.10, GitHub Copilot is included in Visual Studio IDE. You can enable it by going to **Tools** > **Options** > **GitHub Copilot**, and do not need to install an extension.
+  - See [this documentation](../../CopilotExtensionVS/README.md) if you need to install Copilot extension for Visual Studio IDE.
 
 ## Demos
 
