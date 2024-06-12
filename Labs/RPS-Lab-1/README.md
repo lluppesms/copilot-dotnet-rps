@@ -7,12 +7,15 @@ Welcome to GitHub Copilot Labs! In this example, we'll show you how to use Copil
 Make sure that you meet the following requirements.
 
 - [Visual Studio IDE](https://visualstudio.microsoft.com/downloads/) for Windows
-- [* Copilot Extension for Visual Studio IDE](https://marketplace.visualstudio.com/items?itemName=GitHub.Copilot).
+
+- Access to GitHub Copilot
+  - If you don't already have access to GitHub Copilot, you can set up a [free trial](https://github.com/github-copilot/signup?ref_cta=Copilot+trial&ref_loc=quickstart+for+github+copilot&ref_page=docs) or subscription for GitHub Copilot Individual on your personal GitHub account. For more information, see ["About GitHub Copilot Individual."](https://docs.github.com/en/copilot/copilot-individual/about-github-copilot-individual)
+
+- Copilot Enabled in Visual Studio
   
   - **Note:** Starting with Visual Studio 17.10, GitHub Copilot is now included in Visual Studio IDE and you do not need to install an extension. You can enable it by going to **Tools** > **Options** > **GitHub Copilot**.
 
-  - See [this documentation](../../CopilotExtensionVS/README.md) if you need to install Copilot extension for Visual Studio IDE.
-
+  - For versions prior to 17.10, see [this documentation](../../Docs/CopilotExtensionVS.md) to install the Copilot extension for Visual Studio IDE.
 
 ## Steps
 

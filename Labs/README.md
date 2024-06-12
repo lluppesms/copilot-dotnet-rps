@@ -10,3 +10,5 @@ This lab is designed to help you get started with GitHub Copilot in Visual Studi
 1. [Lab 4](./RPS-Lab-4/README.md) - Refactor the game and add some documentation.
 1. [Lab 5](./RPS-Lab-5/README.md) - Add some unit tests to the game.
 1. [Lab 6](./RPS-Lab-6/README.md) - Create a build pipeline for the game.
+
+As you progress through the labs, there are working source code solutions for you to look at if needed in the [Solutions](../Solutions/) folder.
