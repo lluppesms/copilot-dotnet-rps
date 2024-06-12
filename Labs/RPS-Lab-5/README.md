@@ -118,4 +118,4 @@ All of these are great suggestions, but we don't have time for that in this clas
 
 ### Lab Complete: Your code is now testable!
 
-Congratulations on finishing your fifth exercise with Copilot!  Your program should now be ready for you to create more unit tests to ensure complete coverage. In the next lab (if it ever gets written...!), we'll use Copilot to create a pipeline that builds your program, runs the unit tests, and then shows your code coverage in the pipeline output.
+Congratulations on finishing your fifth exercise with Copilot!  Your program should now be ready for you to create more unit tests to ensure complete coverage. In the [next lab](../RPS-Lab-6/README.md), we'll use Copilot to create a pipeline that builds your program, runs the unit tests, and then shows your code coverage in the pipeline output.
