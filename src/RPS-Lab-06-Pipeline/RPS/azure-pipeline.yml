@@ -5,7 +5,7 @@ pool:
   vmImage: 'windows-latest'
 
 variables:
-  solution: '**/*.sln'
+  solution: '**/RPS-Lab-06-Pipeline/RPS/*.sln'
   buildPlatform: 'Any CPU'
   buildConfiguration: 'Release'
 
