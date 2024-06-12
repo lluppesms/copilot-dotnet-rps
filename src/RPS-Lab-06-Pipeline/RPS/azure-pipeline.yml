@@ -30,6 +30,7 @@ steps:
     publishTestResults: true
     testRunTitle: 'Unit Tests'
 
+
 - task: PublishCodeCoverageResults@2
   inputs:
     codeCoverageTool: 'Cobertura'
